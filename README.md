@@ -44,4 +44,4 @@ Testing
 ==========
 
 Steps to Execute Automated Test Cases
- - Command :rspec 
+ - Command  rspec 
