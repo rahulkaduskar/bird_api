@@ -1,16 +1,15 @@
 # bird_api
 ==========
-
 Steps for how to Launch the Application:
 ========================================
 
 Things you will require for launch:
 -----------------------------------
 
-Ruby Version 2.3.0
-Rails Version 4.2.7
-Bundle Install
-Configuration: mongoid.yml
+ - Ruby Version 2.3.0
+ - Rails Version 4.2.7
+ - Bundle Install
+ - Configuration: mongoid.yml
 
 How to run Application after installation:
 ------------------------------------------
@@ -40,7 +39,7 @@ Delete API:
 
 curl -X "DELETE" http://localhost:3000/birds/57d588fcd307b81336000003.json
  
- 
+
 Testing
 ==========
 
