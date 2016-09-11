@@ -15,7 +15,7 @@ How to run Application after installation:
 ------------------------------------------
 
  - Open two terminal. Go to application path & start your rails application using < rails s > command
- - In another terminal execute below API service,
+ - In another terminal execute below API service
 
 API specification
 =================
@@ -32,16 +32,16 @@ curl -v -H "Accept: application/json" -H "Content-type: application/json" -X POS
 Show API:
 ---------
 
-curl -v -H “Accept: application/json” -H “Content-type: application/json” -X GET http://localhost:3000/birds/57d588fcd307b81336000003.json
+curl -v -H “Accept: application/json” -H “Content-type: application/json” -X GET http://localhost:3000/birds/<bird id>.json
 
 Delete API:
 -----------
 
-curl -X "DELETE" http://localhost:3000/birds/57d588fcd307b81336000003.json
+curl -X "DELETE" http://localhost:3000/birds/<bird id>.json
  
 
 Testing
 ==========
 
 Steps to Execute Automated Test Cases
-Command :rspec 
+ - Command :rspec 
